@@ -10,6 +10,9 @@ var User = mongoose.model('User', {
   },
 });
 
+//We export the model that we have created
+module.exports = {User};
+
 // new Variable
 // var newUser = new User ({
 //   mail: ' daniela.muratore@gmail.com'
@@ -21,6 +24,3 @@ var User = mongoose.model('User', {
 //   }, (e) => {
 //     console.log('Unable to save todo');
 //   })
-
-//We export the model that we have created
-module.export = {User};

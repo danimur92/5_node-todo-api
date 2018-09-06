@@ -20,4 +20,4 @@ var Todo = mongoose.model('Todo', {
 });
 
 //We export the model that we have created
-module.export = {Todo};
+module.exports = {Todo};
